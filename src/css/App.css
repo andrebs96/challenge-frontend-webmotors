@@ -1,0 +1,162 @@
+body {
+  background-color: #f3f5f8;
+  color: #94949e;
+}
+
+.d-flex {
+  display: flex;
+}
+
+.align-center {
+  align-items: center;
+}
+
+.justify-space-between {
+  justify-content: space-between;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.col-6 {
+  flex: 0 50%;
+}
+
+.col-12 {
+  flex: 0 100%;
+}
+
+.mr-16 {
+  margin-right: 16px;
+}
+
+.mb-12 {
+  margin-bottom: 12px;
+}
+
+.header, .content {
+  padding: 16px;
+  margin-bottom: 16px;
+}
+
+.search-container {
+  width: auto;
+  max-width: 933px;
+  height: auto;
+  max-height: 312px;
+}
+
+.search-options-box {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.search-options {
+  display: flex;
+}
+
+.search-option {
+  display: flex;
+  align-items: center;
+  padding: 0 16px;
+  font-weight: 400;
+  border-bottom: 2px solid transparent;
+  cursor: pointer;
+}
+
+.search-option--active {
+  border-bottom: 2px solid #f3123c;
+}
+
+.search-option__link {
+  padding: 8px 24px;
+  color: #f5bd2e;
+  font-weight: 600;
+  text-decoration: none;
+  border: 2px solid #f5bd2e;
+  border-radius: 2px;
+  cursor: pointer;
+}
+
+.search-option--active .search-option__text--title {
+  color: #f3123c;
+}
+
+.search-option__text-box {
+  margin-left: 8px;
+}
+
+.search-option__text {
+  text-transform: uppercase;
+}
+
+.search-option__text--subtitle {
+  font-size: 10px;
+}
+
+.search-option__text--title {
+  font-size: 18px;
+}
+
+.form {
+  background: #FFF;
+  padding: 24px 48px;
+}
+
+/* input[type=checkbox] {
+  border: 1px solid #94949e;
+} */
+
+.input-box {
+  display: flex;
+  align-items: center;
+  min-height: 34px;
+  padding: 4px;
+  border: 1px solid #94949e;
+  border-radius: 2px;
+  box-sizing: border-box;
+}
+
+.input-box--bl-0 {
+  border-left: 0;
+}
+
+.input-box input {
+  width: 100%;
+}
+
+.input-box select {
+  font-size: 15px;
+}
+
+.input-box input, .input-box select {
+  margin-left: 8px;
+  font-weight: bold;
+  color: #aeaeba;
+  border: none;
+  outline: 0;
+}
+
+.input-box--font-normal select {
+  font-weight: normal;
+  color: #94949e;
+}
+
+.link-advanced-search {
+  color: #f3123c;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.btn-search {
+  background-color: #f3123c;
+  padding: 8px 64px;
+  color: #FFF;
+  text-transform: uppercase;
+  font-weight: 600;
+  border-radius: 2px;
+  cursor: pointer;
+}
